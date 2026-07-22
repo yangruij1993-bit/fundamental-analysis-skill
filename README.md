@@ -1,6 +1,6 @@
-# fundamental-analysis · 胡猛 3C3D5M3T 基本面分析 Skill
+# fundamental-analysis · 3C3D5M3T 基本面分析 Skill
 
-> 一个用于 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 的 skill，把胡猛的 3C3D5M3T + LOGOS 基本面分析框架变成可执行流程。
+> 一个用于 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 的 skill，把3C3D5M3T + LOGOS 基本面分析框架变成可执行流程。
 >
 > 输入公司代码，输出结构化的 Markdown 分析文档，含做多/做空/观望结论 + 仓位建议 + 止损位 + 跟踪计划。
 
@@ -8,7 +8,7 @@
 
 ## 这个 skill 解决什么问题
 
-看到一家公司后，不知道该问什么问题、按什么顺序问、最后怎么得出结论。这个 skill 把胡猛的方法论变成一套可执行流程：
+看到一家公司后，不知道该问什么问题、按什么顺序问、最后怎么得出结论。这个 skill 把原作者的方法论变成一套可执行流程：
 
 1. **输入**：公司代码（ticker）
 2. **流程**：Claude 拉客观数据 → 按 5M/3T/3D 逐项分析 → LOGOS 风险清单排查 → 得出结论
@@ -16,7 +16,7 @@
 
 ## 框架来源
 
-基于胡猛《风和投资随笔1》提炼的 3C3D5M3T + LOGOS 方法论：
+基于《风和投资随笔1》提炼的 3C3D5M3T + LOGOS 方法论：
 
 | 框架 | 含义 |
 |------|------|
@@ -114,7 +114,7 @@ Claude 会：
 ```
 fundamental-analysis-skill/
 ├── SKILL.md              # skill 定义 + 执行流程
-├── framework.md          # 完整方法论（胡猛 3C3D5M3T + LOGOS）
+├── framework.md          # 完整方法论（3C3D5M3T + LOGOS）
 ├── commands/
 │   └── analyze.md        # /analyze 斜杠命令入口
 ├── examples/             # 示例分析文档
@@ -145,10 +145,10 @@ fundamental-analysis-skill/
 
 ## 版权与引用
 
-- 本 skill 的方法论框架基于胡猛《风和投资随笔1》提炼。
-- `framework.md` 中包含少量胡猛原话引用（注明出处和页码），用于说明框架逻辑，属合理使用。
+- 本 skill 的方法论框架基于《风和投资随笔1》提炼。
+- `framework.md` 中包含少量原作者原话引用（注明出处和页码），用于说明框架逻辑，属合理使用。
 - 仅供个人学习研究用途。如需商业使用，请先联系原作者。
-- 本书版权归作者胡猛所有，强烈建议读者购买原书系统学习。
+- 本书版权归作者所有，强烈建议读者购买原书系统学习。
 
 ## License
 
